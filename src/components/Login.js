@@ -1,6 +1,6 @@
 import {useState, useEffect, useRef, useContext } from 'react';
-import AuthContext from './context/AuthProvider';
-import axios from './api/axios';
+import AuthContext from '../context/AuthProvider';
+import axios from '../api/axios';
 
 const LOGING_URL = 'http://localhost:5078/login';
 
