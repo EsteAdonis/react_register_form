@@ -18,3 +18,16 @@ I suggest completing my [8 hour JavaScript course tutorial video](https://youtu.
 ### Academic Honesty
 
 **DO NOT COPY FOR AN ASSIGNMENT** - Avoid plagiargism and adhere to the spirit of this [Academic Honesty Policy](https://www.freecodecamp.org/news/academic-honesty-policy/).
+
+
+- Next topics
+
+- React Protected Routes | Role-Based Authorization | React Router v6
+- https://www.youtube.com/watch?v=oUZjO00NkhY
+- https://github.com/gitdagray/react_protected_routes
+
+- React Redux Full Course for Beginners | Redux Toolkit Complete Tutorial
+- https://www.youtube.com/watch?v=NqzdVN2tyvQ
+
+- React Redux Login Authentication Flow with JWT Access, Refresh Tokens, Cookies
+- https://www.youtube.com/watch?v=-JJFQ9bkUbo
