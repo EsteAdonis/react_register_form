@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 // import axios from '../api/axios';
-import useAuth from "../hooks/useAuth";
+// import useAuth from "../hooks/useAuth";
+import useAuth from '../context/AuthProvider'
 import useRefreshToken from '../hooks/useRefreshToken';
 import useAxiosPrivate from '../hooks/useAxiosPrivate';
 import {useNavigate, useLocation } from 'react-router-dom';

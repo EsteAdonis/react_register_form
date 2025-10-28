@@ -1,7 +1,8 @@
 import {useState, useEffect, useRef } from 'react';
 import axios from '../api/axios';
-import useAuth from '../hooks/useAuth';
-import {Link, useNavigate } from 'react-router-dom';
+// import useAuth from '../hooks/useAuth';
+import useAuth from '../context/AuthProvider'
+import { Link, useNavigate } from 'react-router-dom';
 
 const LOGING_URL = 'http://localhost:5078/login';
 

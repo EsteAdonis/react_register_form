@@ -1,14 +1,18 @@
 import { useNavigate, NavLink } from "react-router-dom";
-import { useContext } from "react";
-import AuthContext from "../context/AuthProvider";
+// import { useContext } from "react";
+// import  AuthContext  from "../context/AuthProvider";
+import useAuth from "../context/AuthProvider";
 
 const Home = () => {
-	const { setAuth } = useContext(AuthContext);
+	// const { setAuth } = useContext(AuthContext);
 	const navigate = useNavigate();
+	const { auth, setAuth } = useAuth();
+	// const useAuth = useAuth();
 
 	const logout = async () => {
 		// if used in more components, this should be in context 
 		// axios to /logout endpoint 
+		console.log('Authorization', auth);
 		setAuth({});
 		navigate('/linkpage');
 	}

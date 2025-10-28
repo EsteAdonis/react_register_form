@@ -33,6 +33,7 @@ function App() {
 				<Route path="register" element={<Register />} />
 				<Route path="linkpage" element={<LinkPage  />} />
 				<Route path="profile" element={<Profile />} />
+				<Route index path="home" element={<Home />} />				
 				<Route 
 					path="unauthorized" 
 					element={
@@ -43,9 +44,9 @@ function App() {
 				/>
 
 				{/* we want to protect these routes */}
-				<Route element={<RequireAuth allowedRoles={[ROLES.User]} />} >
+				{/* <Route element={<RequireAuth allowedRoles={[ROLES.User]} />} >
 					<Route path="/" element={<Home />} />
-				</Route>
+				</Route> */}
 
 				<Route element={<RequireAuth allowedRoles={[ROLES.Editor]} />} >
 					<Route path="editor" element={<Editor />} />
